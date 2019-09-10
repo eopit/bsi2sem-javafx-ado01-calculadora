@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="436.0" style="-fx-background-color: #1F1F1F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senac.com.gui.TelaCalcController">
+   <children>
+      <Label fx:id="screen" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="101.0" prefWidth="408.0" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Rockwell Extra Bold" size="64.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="202.0" mnemonicParsing="false" onAction="#nb7" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="7" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="171.0" layoutY="202.0" mnemonicParsing="false" onAction="#nb8" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="8" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="202.0" mnemonicParsing="false" onAction="#nb9" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="9" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="340.0" mnemonicParsing="false" onAction="#nb6" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="6" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="171.0" layoutY="340.0" mnemonicParsing="false" onAction="#nb5" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="5" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="340.0" mnemonicParsing="false" onAction="#nb4" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="4" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="455.0" mnemonicParsing="false" onAction="#nb1" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="1" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="171.0" layoutY="455.0" mnemonicParsing="false" onAction="#nb2" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="2" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="455.0" mnemonicParsing="false" onAction="#nb3" prefHeight="88.0" prefWidth="94.0" style="-fx-background-color: #1F1F1F;" text="3" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="177.0" layoutY="553.0" mnemonicParsing="false" onAction="#nb0" prefHeight="61.0" prefWidth="82.0" style="-fx-background-color: #1F1F1F;" text="0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="553.0" mnemonicParsing="false" onAction="#btResultado" prefHeight="61.0" prefWidth="82.0" style="-fx-background-color: #1F1F1F;" text="=" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="21.0" layoutY="553.0" mnemonicParsing="false" onAction="#btLimpar" prefHeight="61.0" prefWidth="82.0" style="-fx-background-color: #1F1F1F;" text="C" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoSoma" alignment="CENTER" contentDisplay="CENTER" layoutX="21.0" layoutY="125.0" mnemonicParsing="false" onAction="#btSoma" prefHeight="77.0" prefWidth="82.0" style="-fx-background-color: #1F1F1F;" text="+" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoMenos" alignment="CENTER" contentDisplay="CENTER" layoutX="178.0" layoutY="125.0" mnemonicParsing="false" onAction="#btMenos" prefHeight="77.0" prefWidth="82.0" style="-fx-background-color: #1F1F1F;" text="-" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoDivisao" alignment="CENTER" contentDisplay="CENTER" layoutX="287.0" layoutY="125.0" mnemonicParsing="false" onAction="#btDivisao" prefHeight="0.0" prefWidth="17.0" style="-fx-background-color: #1F1F1F;" text="/" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoMultiplicacao" alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="125.0" mnemonicParsing="false" onAction="#btMultiplicacao" prefHeight="0.0" prefWidth="17.0" style="-fx-background-color: #1F1F1F;" text="*" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
